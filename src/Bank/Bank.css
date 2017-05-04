@@ -1,0 +1,24 @@
+.Bank {
+  text-align: center;
+}
+
+.Bank-logo {
+  animation: Bank-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Bank-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.Bank-intro {
+  font-size: large;
+}
+
+@keyframes Bank-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
