@@ -1,0 +1,14 @@
+.Cooking {
+  text-align: center;
+}
+
+.Cooking-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.Cooking-intro {
+  font-size: large;
+}

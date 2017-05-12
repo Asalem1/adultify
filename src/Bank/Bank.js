@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Bank.css';
 import logo from '../logo.svg';
+import Loan from './Loan_Application/Loan';
+import Credit from './Build_Credit/Credit';
 
 class Bank extends Component {
   render() {
@@ -13,6 +15,8 @@ class Bank extends Component {
         <p className="Bank-intro">
         In the Bank!
         </p>
+        <Credit />
+        <Loan />
       </div>
     );
   }

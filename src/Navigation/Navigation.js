@@ -18,6 +18,12 @@ export default class Navigation extends Component {
               <li className="nav-item">
                 <a className="nav-link" href="#Kitchen">Kitchen</a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#Insurance">Insurance</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#Employment">Employment</a>
+              </li>
           </ul>
         </div>
     </nav>

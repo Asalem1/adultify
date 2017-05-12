@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Kitchen.css';
 import logo from '../logo.svg';
+import Cooking from './Cooking/Cooking';
+import Equipment from './Equipment/Equipment';
 
 class Kitchen extends Component {
   render() {
@@ -13,6 +15,8 @@ class Kitchen extends Component {
         <p className="Kitchen-intro">
           In the Kitchen!
         </p>
+        <Cooking />
+        <Equipment />
       </div>
     );
   }

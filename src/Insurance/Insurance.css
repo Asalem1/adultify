@@ -1,0 +1,24 @@
+.Insurance {
+  text-align: center;
+}
+
+.Insurance-logo {
+  animation: Insurance-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Insurance-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.Insurance-intro {
+  font-size: large;
+}
+
+@keyframes Insurance-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
